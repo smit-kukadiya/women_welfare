@@ -5,7 +5,7 @@
     </head>
     <body>
         <?php
-            $name = $_POST['name'];
+            $name = $_GET['name'];
             echo $name;
         ?>
     </body>
